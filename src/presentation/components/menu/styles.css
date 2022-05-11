@@ -1,0 +1,31 @@
+:root {
+  --color-primary: #0e2774;
+  --color-secondary: #2075D5;
+  --color-white: #FFF;
+}
+
+.marginContent {
+  margin-top: 169px;
+}
+
+.sideMenu-active {
+  left: 0;
+  transition: 350ms;
+}
+
+.sideMenu-inactive {
+  left: -100%;
+  transition: 350ms;
+}
+
+.sideNav-inactive {
+  left: -13%;
+  width: 100vw;
+  transition: 350ms;
+}
+
+.sideFooter-inactive {
+  transition: 350ms;
+  width: 100vw;
+  margin-left: -500;
+}

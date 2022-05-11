@@ -1,0 +1,461 @@
+.containerService {
+    padding: 0 80px;
+    margin: 24px 64px;
+}
+
+/* TITULO DE TODAS AS PÁGINAS COM LINHAS */
+.titleContainer {
+    margin-top: 40px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+}
+
+.titleDoubleLine {
+    margin: 10px 0 20px 0;
+    border-style: solid;
+    border-width: 2px 0;
+    border-color: #D7D7D7;
+    min-width: 1px;
+    height: 8px;
+}
+
+.containerText {
+    max-width: 1500px;
+}
+
+.titleText {
+    color: #0357B6;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    overflow-wrap: break-word;
+}
+
+
+/* ------------------------------------ */
+
+/* BREADCRUMB */
+.breadcrumbComponent {
+    margin: 16px 0;
+}
+
+.arrowRightBreadcrumb {
+    color: #7B7B7B;
+    margin: 0 5px;
+}
+
+.actualItemBreadcrumb {
+    color: #7B7B7B;
+}
+
+/* ------------------------------------ */
+
+/* TITULO DA SEÇÃO E CONFIGURAÇÕES DO CONTEÚDO */
+.sectionHeader {
+    padding: 10px;
+    color: #F1F1F1;
+    background-color: #0357B6;
+    align-items: center;
+}
+
+.sectionTitle {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.sectionContent {
+    padding: 10px 80px;
+}
+
+/* ------------------------------ */
+
+/* COMPONENTES DE DENTRO DA SEÇÃO*/
+
+/* TÍTULO */
+.internalTitle {
+    color: #0357B6;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* INPUT TEXT */
+.completeInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputLabel {
+    color: #0357B6;
+    margin-bottom: 0;
+}
+
+.serviceInputText {
+    border: 2px solid #0357B6;
+    border-radius: 4px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.inputLabel-disabled {
+    color: #7B7B7B;
+    margin-bottom: 0;
+}
+
+.serviceInputText-disabled {
+    border: 2px solid #7B7B7B;
+    border-radius: 4px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+/* --------------------------------- */
+
+/* SELECT INPUT */
+.completeSelectInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.selectInputLabel {
+    color: #0357B6;
+    margin-bottom: 0;
+}
+
+.serviceSelectInput {
+    border: 2px solid #0357B6;
+    border-radius: 4px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.selectInputLabel-disabled {
+    color: #7B7B7B;
+    margin-bottom: 0;
+}
+
+.serviceSelectInput-disabled {
+    border: 2px solid #7B7B7B;
+    border-radius: 4px;
+    height: 40px;
+    padding-left: 10px;
+    z-index: 0;
+
+}
+
+/* --------------------------------- */
+
+/* CHECKBOX INPUT */
+
+.completeCheckInput {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.checkboxInput {
+    min-width: 20px;
+    min-height: 20px;
+    margin: 10px 5px 10px 0;
+}
+
+.checkboxLabel {
+    margin-top: 5px;
+    color: #0357B6;
+    font-weight: 500 !important;
+}
+
+/* --------------------------------- */
+
+/* RADIO INPUT */
+
+.completeRadioInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.radioInputLabel {
+    color: #0357B6;
+    margin-bottom: 10px;
+}
+
+.radioInput {
+    min-width: 16px;
+    min-height: 16px;
+    margin: 10px 5px 10px 0;
+
+}
+
+.optionsRadioInput {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 180px;
+}
+
+.radioLabel {
+    margin-top: 5px;
+    color: #0357B6;
+    font-weight: 500 !important;
+}
+
+/* --------------------------------- */
+
+/* LONG RADIO INPUT */
+.optionsLongRadioInput {
+    display: flex;
+    flex-direction: column;
+}
+
+.optionLongRadioInput {
+    display: flex;
+    flex-direction: row;
+}
+
+/* --------------------------------- */
+
+
+/* BUTTONS */
+.buttonComponent {
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 5px 30px;
+    min-height: 40px;
+    max-width: 200px;
+}
+
+.buttonNext {
+    color: #FFFFFF;
+    background-color: #0357B6;
+    border: none;
+}
+
+.buttonNext:hover {
+    color: #FFFFFF;
+    background-color: #002d61;
+    border: none;
+}
+
+.buttonNext:active {
+    color: #FFFFFF;
+    background-color: #006CE6;
+    border: none;
+}
+
+.buttonBack {
+    color: #0357B6;
+    background-color: #FFFFFF;
+    border: 1px solid #0357B6;
+}
+
+.buttonBack:hover {
+    color: #0357B6;
+    background-color: #dadada;
+    border: 1px solid #0357B6;
+}
+
+.buttonBack:active {
+    color: #006CE6;
+    background-color: #FFFFFF;
+    border: 1px solid #006CE6;
+}
+
+.buttonForm {
+    min-width: 200px;
+}
+
+.buttonDetail {
+    min-width: 300px;
+    padding: 5px 10px;
+}
+
+.buttonDetail i {
+    margin: 0 20px 0 -30px;
+    font-size: 20px;
+}
+
+/* HELP BUTTON */
+.buttonHelp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    min-width: 370px;
+
+
+    position: fixed;
+    bottom: -12px;
+    right: 0;
+}
+
+.helpButtonIcon {
+    margin-right: 30px;
+    font-size: 30px;
+}
+
+.helpButtonText {
+    text-align: left;
+    margin: 0;
+}
+
+/* --------------------------------- */
+
+/* MODAL DE AJUDA */
+
+.modalHelp {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity: 0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+}
+
+.headerModalHelp {
+    border-radius: 5px 5px 0 0;
+    background-color: #0357B6;
+    color: #ffffff;
+    height: 76px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+.titleModalHelp {
+    color: #FFFFFF;
+    font-size: 26px;
+    margin: -5px;
+}
+
+.contentModalHelp {
+    border-radius: 10px 10px 0 0;
+    width: 70%;
+    height: 70%;
+    position: relative;
+    margin: 10% auto;
+    background: #fff;
+}
+
+.iframeHelpContainer {
+    width: 100%;
+    height: 89%;
+}
+
+
+.modalHelp:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.fechar {
+    text-align: center;
+    line-height: 15px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+/* ---------------------*/
+
+/* CAMPO DE INFORMAÇÃO */
+
+.infoField {
+    margin-top: 20px;
+}
+
+.infoFieldPosition {
+    position: relative;
+}
+
+.infoFieldLabel {
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    height: 14px;
+    background-color: #FFFFFF;
+}
+
+.infoFieldLabelText {
+    padding: 0 20px;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.infoFieldContent {
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.infoFieldContentNormal {
+    border: 2px solid #0357B6;
+}
+
+.infoFieldLabelTextNormal {
+    color: #0357B6;
+}
+
+.infoFieldContentAlert {
+    border: 2px solid #B20B0B;
+}
+
+.infoFieldLabelTextAlert {
+    color: #B20B0B;
+}
+
+.infoFieldText {
+    margin: 5px 0 5px 15px;
+}
+
+/* --------------------------------- */
+
+
+/* CAMPO INFORMATIVO SIMPLES */
+
+.infoSimpleField {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.infoSimpleFieldLabel {
+    color: #0357B6;
+    font-weight: 600 !important;
+    margin-bottom: 0;
+}
+
+/* ------------------------------------*/
+
+/* CAMPO DE TEXTOS LONGOS E GRANDES */
+
+.longText {
+    color: #0357B6;
+    text-indent: 25px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+/* --------------------------------*/
+
+
+/* CAMPO DE TEXTOS LONGOS E GRANDES */
+
+.declarationFieldLabel {
+    color: #0357B6;
+    font-weight: 600 !important;
+    margin-bottom: 0;
+    margin-bottom: 10px;
+
+}
+
+/* --------------------------------*/

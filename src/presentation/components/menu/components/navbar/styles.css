@@ -1,0 +1,42 @@
+:root {
+  --color-primary: #0e2774;
+  --color-secondary: #2075D5;
+  --color-white: #FFF;
+}
+
+a {
+  cursor: default;
+  color: var(--color-secondary);
+}
+
+a:hover {
+  color: var(--color-secondary);
+}
+
+.backgroundHeaderNavbar {
+  background-color: #0357B6;
+}
+
+.imgLogo {
+  width: 250px;
+}
+
+.navbar-color {
+  border-bottom: 2px solid #bbbbbb62;
+}
+
+.submenuUser {
+  margin-left: 10px;
+  display: flex;
+}
+
+.signOutIcon {
+  margin-top: 4px;
+}
+
+.inputSearch {
+  width: 280px;
+  border-radius: 3px;
+  border: 0.5px solid #cacaca;
+  margin: 0 10px;
+}

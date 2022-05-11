@@ -1,0 +1,17 @@
+:root {
+    --color-primary: #0e2774;
+    --color-secondary: #2075D5;
+    --color-white: #FFF;
+}
+
+.icon-button-container {
+    cursor: pointer;
+}
+
+.icon-button {
+    color: var(--color-primary);
+}
+
+.icon-button:hover {
+    color: var(--color-secondary);
+}

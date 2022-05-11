@@ -1,0 +1,14 @@
+@media screen and (max-width: 780px) {
+    .table-action thead {
+        display: none;
+    }
+
+    .table-action tr {
+        border-bottom: 1px solid #dddddd;
+    }
+
+    .table-action td {
+        border: 0;
+        display: block;
+    }
+}
