@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.b73a9f6f.chunk.css",
-    "main.js": "/static/js/main.2c05491b.chunk.js",
-    "main.js.map": "/static/js/main.2c05491b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c4cbf638.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c4cbf638.js.map",
-    "static/css/2.ecdd39c8.chunk.css": "/static/css/2.ecdd39c8.chunk.css",
-    "static/js/2.339eca17.chunk.js": "/static/js/2.339eca17.chunk.js",
-    "static/js/2.339eca17.chunk.js.map": "/static/js/2.339eca17.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.ecdd39c8.chunk.css.map": "/static/css/2.ecdd39c8.chunk.css.map",
-    "static/css/main.b73a9f6f.chunk.css.map": "/static/css/main.b73a9f6f.chunk.css.map",
-    "static/js/2.339eca17.chunk.js.LICENSE.txt": "/static/js/2.339eca17.chunk.js.LICENSE.txt",
-    "static/media/Logo-completo-branco.c1fc2931.svg": "/static/media/Logo-completo-branco.c1fc2931.svg",
-    "static/media/LogoGov.70e9252d.svg": "/static/media/LogoGov.70e9252d.svg",
-    "static/media/logo-colorido.d9c724ca.svg": "/static/media/logo-colorido.d9c724ca.svg"
+    "main.css": "/design-system-detranSE/static/css/main.b73a9f6f.chunk.css",
+    "main.js": "/design-system-detranSE/static/js/main.2c05491b.chunk.js",
+    "main.js.map": "/design-system-detranSE/static/js/main.2c05491b.chunk.js.map",
+    "runtime-main.js": "/design-system-detranSE/static/js/runtime-main.59c8cc45.js",
+    "runtime-main.js.map": "/design-system-detranSE/static/js/runtime-main.59c8cc45.js.map",
+    "static/css/2.ecdd39c8.chunk.css": "/design-system-detranSE/static/css/2.ecdd39c8.chunk.css",
+    "static/js/2.6220292b.chunk.js": "/design-system-detranSE/static/js/2.6220292b.chunk.js",
+    "static/js/2.6220292b.chunk.js.map": "/design-system-detranSE/static/js/2.6220292b.chunk.js.map",
+    "index.html": "/design-system-detranSE/index.html",
+    "static/css/2.ecdd39c8.chunk.css.map": "/design-system-detranSE/static/css/2.ecdd39c8.chunk.css.map",
+    "static/css/main.b73a9f6f.chunk.css.map": "/design-system-detranSE/static/css/main.b73a9f6f.chunk.css.map",
+    "static/js/2.6220292b.chunk.js.LICENSE.txt": "/design-system-detranSE/static/js/2.6220292b.chunk.js.LICENSE.txt",
+    "static/media/Logo-completo-branco.c1fc2931.svg": "/design-system-detranSE/static/media/Logo-completo-branco.c1fc2931.svg",
+    "static/media/LogoGov.70e9252d.svg": "/design-system-detranSE/static/media/LogoGov.70e9252d.svg",
+    "static/media/logo-colorido.d9c724ca.svg": "/design-system-detranSE/static/media/logo-colorido.d9c724ca.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c4cbf638.js",
+    "static/js/runtime-main.59c8cc45.js",
     "static/css/2.ecdd39c8.chunk.css",
-    "static/js/2.339eca17.chunk.js",
+    "static/js/2.6220292b.chunk.js",
     "static/css/main.b73a9f6f.chunk.css",
     "static/js/main.2c05491b.chunk.js"
   ]
